@@ -66,12 +66,30 @@ section {
 }
 
 #intro h4 {
-    color: #020067;
+    color: #2B388F;
+}
+
+#quote {
+    padding-top: 1rem;
 }
 
 /* ------------------------ */
 /*   Research Page Styles   */
 /* ------------------------ */
+
+.tag {
+    padding-top: 1rem;
+}
+
+.tag span {
+    background:rgba(135,131,120,.15);
+    color:#1B75BC;
+    border-radius:4px;
+    font-size:85%;
+    padding:0.2em 0.4em;
+    font-weight:600;
+    fill:#1B75BC
+}
 
 
 /* ---------------------- */
@@ -104,7 +122,7 @@ section {
 }
 
 .project-key-image {
-    background-color: #8970ee57;
+    background-color: #22A8E057;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -131,14 +149,14 @@ section {
 }
 
 .design {
-    background-color: #8970ee57;
+    background-color: #22A8E057;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
     margin: .5vh .5vh .5vh .5vh;
     text-align: center;
 }
 
 .design:hover {
-    background-color: #8970eec3;
+    background-color: #22A8E0c3;
     color: #f9f9f9;
 }
 
