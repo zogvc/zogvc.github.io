@@ -73,6 +73,17 @@ section {
     padding-top: 1rem;
 }
 
+#skills .skill div {
+    display: inline-block;
+    text-align: center;
+    background:rgba(135,131,120,.15);
+    color:#555555;
+    border-radius:4px;
+    font-size:85%;
+    padding:0.2em 0.4em;
+    font-weight:600;
+}
+
 /* ------------------------ */
 /*   Research Page Styles   */
 /* ------------------------ */
@@ -81,14 +92,16 @@ section {
     padding-top: 1rem;
 }
 
-.tag span {
+.tag div {
+    display: inline-block;
+    text-align: center;
     background:rgba(135,131,120,.15);
     color:#1B75BC;
     border-radius:4px;
     font-size:85%;
     padding:0.2em 0.4em;
     font-weight:600;
-    fill:#1B75BC
+    fill:#1B75BC;
 }
 
 
